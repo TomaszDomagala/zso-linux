@@ -58,7 +58,7 @@ deploy: ## compile, upload and install kernel
 	@echo "Rebooting vm after timeout..."
 	-@ssh -p 2222 root@localhost reboot
 	@sleep 7s
-	@test-kernel
+	@make test-kernel
 
 .PHONY: clean
 clean:
