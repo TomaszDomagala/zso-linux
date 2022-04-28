@@ -3,4 +3,4 @@ all:
 	./test
 
 clean:
-	rm ./test
+	rm -f ./test
